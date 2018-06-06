@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <style>
-      
-      tr {text-align:center}
-      td {text-align:center}
-      
-    </style>
-  <div id = "title">
-    <title> Lunch Menu </title>
-    </div>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
-   
+	<div id = "title">
+	<title> Lunch Menu </title>
+	</div>
+
+	<style>
+	body{
+		text-align: center;
+		background-color: coral;
+	}
+
+	h1{ 
+		text-align:center;
+		text-decoration:underline;
+		font-family: 'Lora', serif;
+	}
+
+	h3{
+		font-family: 'Lora', serif;
+		color:#f76d61;
+	}
+
+    </style>
+
   </head>
   <body>
-    
-    <h1 style="text-align:center;"></h1>
-    
+  	<div class="container">
+  		<div class="jumbotron">
     <hr/>
+
+    <h1> Lunch Menu</h1>
     
     <div id = "navigation">
       
@@ -27,127 +42,55 @@
 		<a href = "contactUs.html" target = _blank> Contact Us</a></p>
 
     </div>
-    
-    <div class = "content">
+
+     <div class="row">
+    	<div class="col">
+    	<h3>Lord Cheesy</h3>
+    	<p>A Cheese Lovers Dream!<br/>Provolone,cheddar & parmesan cheeses grilled to the Lord's perfection. Served with sweet potato fries and tomato basil soup.<br/>$7.95</p>
+    	</div>
+
+    	<div class="col">
+    		<h3>Lord Veggie</h3>
+    		<p>A Veggie Delight!<br/>Spinach,tomatoes, cucumbers, onions roasted peppers, avocado, with special dressing. Served with chips and a veggie chili.<br/>$7.95</p>
+		</div>
+
+		<div class="col">
+    		<h3>Lord PB&J</h3>
+    		<p>A Pasttime Favorite!<br/>Fresh grape jelly & lightly crunched peanut butter, available hot or cold. Served with chips and bowl of fruit.<br/>$6.95 </p>
+		</div>
+    </div>
 
 
-	<table align="center">
+    <div class="row">
+    	<div class="col">
+    	<h3>Lord Chicken</h3>
+    	<p>Chicken Lickin'Good!<br>Grilled chicken breast swiss cheese, lettuce,and sliced tomato. Served with french fries and a house salad.<br/> $9.95</p>
+    	</div>
 
-	  
-	  <tr>
-	    <th>Lord Cheesy</th>
-	    <th>Lord Veggie</th>
-	    <th>Lord PB&J</th>
-	  </tr>
-	  
-	  <tr>
-	    <td>A Cheese Lovers Dream!</td>
-	    <td>A Veggie Delight!</td>
-	    <td>A Pasttime Favorite!</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>Provolone,cheddar & parmesan cheeses</td>
-	    <td>Spinach,tomatoes, cucumbers, onions</td>
-	    <td>Grape jelly & lightly crunched</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>grilled to the Lord's perfection</td>
-	    <td>roasted peppers, avocado, special dressing </td>
-	    <td>peanut butter, grilled or cold</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>Served with sweet potato fries</td>
-	    <td>Served with chips</td>
-	    <td>Served with bowl of fruit </td>
-	  </tr>
-	  
-	  <tr>
-	    <td>& tomato basil</td>
-	    <td>& veggie chili</td>
-	    <td></td>
-	  </tr>
-	  
-	  <tr>
-	    <td>$7.95</td>
-	    <td>$7.95</td>
-	    <td>$6.95</td>
-	  </tr>
+    	<div class="col">
+    		<h3>Lord Turkey</h3>
+    		<p>Heavenly Jerky Turkey!<br/>Roasted spiced turkey fresh arugula,roasted peppers and frizzled onions. Served with sweet potato fries and a house salad.<br> $9.95</p>
+		</div>
 
-	</table></div>
+		<div class="col">
+    		<h3>Lord Tuna</h3>
+    		<p>A Classic!<br/> House-made tuna,lettuce,red onions, and sliced tomato. Served with chips and a koshered dill pickle.</br>$8.95 </p>
+		</div>
+    </div>
+
+
+		<br/>
 		
-		<br/><br/>
-		
-		
-    <table align="center">
-	  
-	  <tr>
-	    <th>Lord Chicken</th>
-	    <th>Lord Turkey</th>
-	    <th>Lord Tuna</th>
-	  </tr>
-	  
-	 <tr>
-	    <td>Chicken Lickin'Good!</td>
-	    <td>Heavenly Jerky Turkey!</td>
-	    <td>A Classic!</td>
-	  </tr>
-	  
-	   <tr>
-	    <td>Grilled chicken breast</td>
-	    <td>Roasted spiced turkey</td>
-	    <td>House-made tuna</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>w/swiss cheese, lettuce</td>
-	    <td>fresh arugula,roasted pepper</td>
-	    <td> lettuces, sliced tomato</td>
-	  </tr>
-	  
-	   <tr>
-	    <td>& a sliced tomato</td>
-	    <td>& frizzled onions</td>
-	    <td>red onions</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>Served with french fries</td>
-	    <td>Served with sweet potato fries</td>
-	    <td>Served with chips</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>& a house salad</td>
-	    <td>& a house salad</td>
-	    <td>& a koshered dill pickle</td>
-	  </tr>
-	  
-	  
-	  <tr>
-	    <td>$8.95</td>
-	    <td>$8.95</td>
-	    <td>$8.95</td>
-	  </tr>
-
-		</table></div>
-
-		<br/><br/><br/><br/><br/><br/><br/><br/>
-		
-	<div id = "footer">
+	<div class= "footer">
 
 		<hr />
 			<footer> 
 			<p> 222 Dough Street, Bakery, New Oven 98765 </p>
 			<p> 212-567-5362
-
-				
-
-			</footer>
+		</footer>
 
 	</div>
+  
   </body>
 </html>
 
