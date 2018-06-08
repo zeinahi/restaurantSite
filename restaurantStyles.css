@@ -1,0 +1,26 @@
+h1{
+	font-weight:bold;
+	font-size: 40px;
+	font-family: 'Lora', serif;
+	text-decoration:underline;
+}
+
+.col-sm-4, .col-sm-6, .col-sm-12{
+	text-align:center;
+
+}
+.header{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:link{
+	padding-left: 8;
+}
+
+#footer{
+	font-size: 12px;
+	font-family: 'Lora', serif;
+	width: 100%;
+	text-align:center;
+}
