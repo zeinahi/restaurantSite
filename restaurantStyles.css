@@ -1,26 +1,49 @@
+@import url ("https://fonts.googleapis.com/css?family=Lora" rel="stylesheet");
+
+
+
 h1{
 	font-weight:bold;
-	font-size: 40px;
 	font-family: 'Lora', serif;
+	font-size: 50px;
 	text-decoration:underline;
+	text-align: center;
+}
+
+/*Header*/
+.navigation{
+	font-size: 16px;
+	top:0;
+	width:100%;
+}
+
+.bgimg {
+    background-position:center;
+    background-size: cover;
+    min-height: 75%;
 }
 
 .col-sm-4, .col-sm-6, .col-sm-12{
 	text-align:center;
 
 }
-.header{
-	font-size: 20px;
-	font-weight: bold;
+
+.navigation:hover{
+  font-weight: bold;
+
+}
+
+a:visited {
+	color: #E2B13C;
 }
 
 a:link{
 	padding-left: 8;
 }
 
-#footer{
-	font-size: 12px;
-	font-family: 'Lora', serif;
+.footer{
+	font-size: 16px;
+	position:fixed;
 	width: 100%;
 	text-align:center;
 }
